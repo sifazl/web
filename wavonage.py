@@ -5,9 +5,9 @@ import base64
 app = Flask(__name__)
 
 # Ganti dengan kredensial Vonage API Anda
-VONAGE_API_KEY = 'c5a8dd17'
-VONAGE_API_SECRET = 'RZYgoE91xyGjh23v'
-VONAGE_WHATSAPP_NUMBER = '+14157386102'  # Nomor WhatsApp yang terdaftar di Vonage
+VONAGE_API_KEY = ''
+VONAGE_API_SECRET = ''
+VONAGE_WHATSAPP_NUMBER = '+'  # Nomor WhatsApp yang terdaftar di Vonage
 
 @app.route('/send-message', methods=['POST'])
 def send_message():
